@@ -7,7 +7,7 @@ namespace Sum.API.Domain.Models
         public short QuantityInPackage { get; set; }
         public EUnitOfMeasurement UnitOfMeasurement { get; set; }
 
-        public int CategorId { get; set;}
+        public int CategoryId { get; set;}
         public Category Category { get; set; }
     }
 }
